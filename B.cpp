@@ -9,6 +9,7 @@ class B{
         ~B();
         void MB1();
         void MB2();
+        void MB3();
         int getB1();
         float getB2();
         void setB1(int B1);
@@ -28,6 +29,10 @@ void B::MB1(){
 
 void B::MB2(){
     std::cout << " MB2 " << std::endl;
+}
+
+void B::MB3(){
+    std::cout << " MB3 " << std::endl;
 }
 
 int B::getB1(){
