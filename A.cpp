@@ -7,6 +7,7 @@ class A{
         ~A();
         void MA1();
         void MA2();
+        void MA3();
         int getA1();
         float getA2();
         void setA1(int A1);
@@ -20,6 +21,10 @@ A::~A(){ }
 void A::MA1(){ }
 
 void A::MA2(){ }
+
+void A::MA3(){
+	std::cout<< "Alteração a classe A apartir do clone" << std::endl;
+}
 
 int A::getA1(){ return A1; }
 
