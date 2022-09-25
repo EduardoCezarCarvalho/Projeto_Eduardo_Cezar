@@ -7,13 +7,13 @@ class D{
         ~D();
         void MD1();
         void MD2();
-        void MD4();
+        void MD3();
 };
 
 void D::MD1(){ }
 
 void D::MD2(){ }
 
-void D::MD4(){
-	std::cout<< "MD4" std::endl;
+void D::MD3(){
+	std::cout<< "MD3" std::endl;
 }
